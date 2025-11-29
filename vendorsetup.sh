@@ -1,7 +1,5 @@
-git clone --depth=1 https://github.com/selfmusing/platform_vendor_xiaomi_violet.git -b 16 vendor/xiaomi/violet
-git clone https://github.com/selfmusing/kernel_xiaomi_violet.git -b main kernel/xiaomi/violet
-git clone https://gitlab.com/Drpto/vendor_xiaomi-firmware_violet.git -b fifteen vendor/xiaomi-firmware/violet
-git clone --depth=1 https://github.com/selfmusing/meme_cam.git -b 15 vendor/MiuiCamera
+git clone --depth=1 https://github.com/LineageOS-Violet/vendor_xiaomi_violet.git -b ax vendor/xiaomi/violet
+git clone https://github.com/Joker-V2/kernel_xiaomi_violet.git -b 4.14.356+6 kernel/xiaomi/violet
+git clone --depth=1 https://gitlab.com/CuriousNom/chaste_vendor-xiaomi-firmware-violet.git -b 14.0 vendor/xiaomi-firmware/violet
 git clone https://github.com/selfmusing/vendor_bcr.git vendor/bcr
-rm -rf hardware/xiaomi && git clone https://github.com/Evolution-X-Devices/hardware_xiaomi -b bka hardware/xiaomi && rm -rf hardware/xiaomi/dolby && rm -rf hardware/xiaomi/DSPVolumeSynchronizer
-rm -rf hardware/dolby && git clone https://github.com/selfmusing/android_hardware_dolby -b 16.0 hardware/dolby
+git clone https://github.com/AOSP-for-vili/android_hardware_xiaomi.git -b lineage-22.2 hardware/xiaomi
