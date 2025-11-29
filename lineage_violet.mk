@@ -17,8 +17,8 @@ $(call inherit-product-if-exists, vendor/MiuiCamera/config.mk)
 # AxionAOSP
 AXION_CAMERA_REAR_INFO := 48,5
 AXION_CAMERA_FRONT_INFO := 13
-AXION_MAINTAINER := Joker-V2
-AXION_PROCESSOR := Qualcomm_Snapdragon_675
+AXION_MAINTAINER := Chronix魚
+AXION_PROCESSOR := Snapdragon®_675
 GPU_FREQS_PATH := /sys/class/kgsl/kgsl-3d0/devfreq/available_frequencies
 GPU_MIN_FREQ_PATH := /sys/class/kgsl/kgsl-3d0/devfreq/min_freq
 PERF_GOV_SUPPORTED := true
